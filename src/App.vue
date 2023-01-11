@@ -8,7 +8,7 @@ import Body from "@/components/body.vue";
   <header>
     <Header/>
   </header>
-  <body class="container">
+  <body>
   <Body/>
   </body>
   <footer>

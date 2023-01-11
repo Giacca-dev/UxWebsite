@@ -1,7 +1,10 @@
 <template>
-<div>
+<div class="container">
   de scialo
 </div>
+  <a class="green">
+    bonaa
+  </a>
 </template>
 
 <script>
