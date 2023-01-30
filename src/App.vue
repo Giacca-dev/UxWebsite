@@ -5,7 +5,7 @@ import Body from "@/components/body.vue";
 </script>
 
 <template>
-    <Header title="{{ items.title }}"/>
+    <Header/>
 
   <Body/>
 
@@ -16,17 +16,3 @@ import Body from "@/components/body.vue";
 <style scoped>
 
 </style>
-
-<script>
-
-export default {
-  name: "headResp1",
-  data() {
-    return {
-      items: [{ title:'home' },{ title:'About us' }]
-    }
-  }
-
-}
-
-</script>
