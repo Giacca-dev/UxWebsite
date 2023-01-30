@@ -5,18 +5,28 @@ import Body from "@/components/body.vue";
 </script>
 
 <template>
-  <header>
-    <Header/>
-  </header>
-  <body>
+    <Header title="{{ items.title }}"/>
+
   <Body/>
-  </body>
-  <footer>
+
   <Footer/>
-  </footer>
 
 </template>
 
 <style scoped>
 
 </style>
+
+<script>
+
+export default {
+  name: "headResp1",
+  data() {
+    return {
+      items: [{ title:'home' },{ title:'About us' }]
+    }
+  }
+
+}
+
+</script>
