@@ -1,7 +1,9 @@
-<template>
+<template xmlns="http://www.w3.org/1999/html">
     <ul class="nav nav-pills menu-bar">
+      <div>
       <li class="nav-item" v-for="item in items">
-      <a  class="nav-link rounded-circle border" href="#">{{ item.title }}</a></li>
+      <a style="text-align: center;" class="nav-link rounded-circle border" :href="'#' + item.title">{{ item.title }}</a></li>
+      </div>
     </ul>
 </template>
 
@@ -10,7 +12,9 @@ export default {
   name: "headResp1",
   data() {
     return {
-      items: [{ title:'Home' },{ title:'About us' }]
+      items: [{ title:'Home',},{ title:'About us' }]
+
+
     }
   }
 
