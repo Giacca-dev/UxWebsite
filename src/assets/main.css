@@ -13,3 +13,23 @@
 @media (min-width: 1200px) {
 
 }
+
+.custom-shape-divider-top-1676234535 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1676234535 svg {
+    position: relative;
+    display: block;
+    width: calc(170% + 1.3px);
+    height: 71px;
+}
+
+.custom-shape-divider-top-1676234535 .shape-fill {
+    fill: #FFFFFF;
+}

@@ -1,5 +1,6 @@
 <template>
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+    <TopDivider/>
     <div class="col-md-6 d-flex justify-content-center">
       <ul class="nav justify-content-center navbar-nav m-2" v-for="item in items">
         <li class="nav-item"><a :href="'#' + item.title" class="nav-link text-muted">{{ item.title }}</a></li>
@@ -15,8 +16,10 @@
 </template>
 
 <script>
+import TopDivider from "@/components/topDivider.vue";
 export default {
   name: "footer",
+  components: TopDivider,
   data() {
     return {
       items: [{ title:'Home',},{ title:'About us' }]

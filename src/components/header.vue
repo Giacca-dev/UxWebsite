@@ -9,9 +9,6 @@
 
 <script>
   import HeadResp1 from "@/components/headResp1.vue";
-
-
-  let bool=true;
 export default {
   name: "header",
   components: {HeadResp1}
