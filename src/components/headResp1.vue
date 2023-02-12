@@ -1,7 +1,7 @@
 <template xmlns="http://www.w3.org/1999/html">
     <ul class="nav nav-pills menu-bar">
       <div>
-      <li class="nav-item" v-for="item in items">
+      <li class="nav-item" style="margin: 2px;" v-for="item in items">
       <a style="text-align: center;" class="nav-link rounded-circle border" :href="'#' + item.title">{{ item.title }}</a></li>
       </div>
     </ul>
